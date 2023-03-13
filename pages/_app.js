@@ -1,9 +1,9 @@
 import Header from "../components/Header"
 import useSession from "../lib/session"
-import Link from "next/link"
 import "./_app.css"
 
 export default function App({ Component, pageProps }) {
+    debugger
     const session = useSession()
     const newPageProps = {
         ...pageProps,

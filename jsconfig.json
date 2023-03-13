@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "baseUrl": "./projekt-zitatgram",
+        "baseUrl": ".",
         "paths": {
             "@components/*": ["components/*"],
             "@lib/*": ["lib/*"]

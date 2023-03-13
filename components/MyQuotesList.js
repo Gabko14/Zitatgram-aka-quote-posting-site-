@@ -94,7 +94,7 @@ function toggleButtonsVisibility(id) {
                                             </div>
                                         }
                                     </li>
-                                    : <div></div>
+                                    : <></>
                             ))
                             : <></>
                     }

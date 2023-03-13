@@ -1,3 +1,4 @@
+debugger
 import styles from "./QuotesList.module.css"
 import {useEffect, useState} from "react";
 import {getAllPosts, updatePost} from "@lib/api";

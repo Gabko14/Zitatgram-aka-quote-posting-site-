@@ -7,7 +7,7 @@ export default function Header() {
             <Link href="/" passHref>
                 HOME
             </Link>
-            <Link href="/pages/profile" passHref>
+            <Link href="/profile" passHref>
                 Profil
             </Link>
         </header>

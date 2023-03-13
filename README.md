@@ -17,6 +17,8 @@ Next, install the dependencies:
 npm install
 ``
 
+(You will maybe need to delete your package-lock.json file and then do npm install if the project isnt working after following these steps )
+
 ## Usage
 
 To start the development server, run:

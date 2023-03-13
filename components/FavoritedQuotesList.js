@@ -1,6 +1,6 @@
 import styles from "./FavoritedQuotesList.module.css"
 import {useEffect, useState} from "react";
-import {deletePost, getAllPosts} from "@lib/api";
+import {getAllPosts} from "@lib/api";
 import QuoteForm from "@components/QuoteForm";
 
 export default function FavoritedQuotesList({session}) {
@@ -67,7 +67,7 @@ function toggleButtonsVisibility(id) {
                                             </div>
                                         }
                                     </li>
-                                    : <div></div>
+                                    : <></>
                             ))
                             : <></>
                     }
