@@ -1,0 +1,57 @@
+.quotesList {
+    color: black;
+    list-style: none;
+    text-align: center;
+    margin: 3em 0;
+}
+.quotesList li {
+    margin: 3em 0;
+}
+
+.quote {
+    text-align: center;
+}
+
+.button {
+    display: none;
+}
+
+.form {
+    transition: max-height .75s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.visibleForm {
+    max-height: 500px;
+}
+
+.visibleButton {
+    display: inline-block;
+}
+
+.acceptButton {
+    background-color: red;
+}
+
+.cancelButton {
+    background-color: green;
+}
+
+.summary {
+    user-select: none;
+}
+
+.summary>.summary span.icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s;
+    margin-left: auto;
+}
+
+
+.summary {
+    display: flex;
+    cursor: pointer;
+}
+

@@ -1,0 +1,206 @@
+{
+  "quotes": [
+    {
+      "id": 7,
+      "text": "Ti debil",
+      "author": "Osman.",
+      "postedBy": 2,
+      "favoritedBy": [
+        6,
+        9,
+        55,
+        2,
+        3,
+        1
+      ],
+      "comments": [
+        {
+          "owner": 1,
+          "text": "Osman ist nicht lustig"
+        },
+        {
+          "owner": 3,
+          "text": "Hahahahah voll lustig"
+        },
+        {
+          "text": "Osman ist cool",
+          "owner": 1
+        },
+        {
+          "text": "Hallo",
+          "owner": 1
+        },
+        {
+          "text": "Cool",
+          "owner": 1
+        },
+        {
+          "text": "Osman ist schnell beleidigt",
+          "owner": 1
+        },
+        {
+          "text": "Osman ist lustig",
+          "owner": 1
+        },
+        {
+          "text": "Mega uncool",
+          "owner": 2
+        },
+        {
+          "text": "Hör bitte auf, deine Zitate geben Kopfschmerzen",
+          "owner": 2
+        }
+      ]
+    },
+    {
+      "text": "red is red blue is blue",
+      "author": "Nis Zhubi",
+      "postedBy": 2,
+      "favoritedBy": [
+        3,
+        1
+      ],
+      "comments": [
+        {
+          "text": "king",
+          "owner": 1
+        }
+      ],
+      "id": 15
+    },
+    {
+      "text": "Wenn du denkst denkst du das du denkst",
+      "author": "Adam admin",
+      "postedBy": 1,
+      "favoritedBy": [
+        3,
+        2
+      ],
+      "comments": [
+        {
+          "text": "Cool",
+          "owner": 1
+        }
+      ],
+      "id": 18
+    },
+    {
+      "text": "Mein Bruder ist grün",
+      "author": "Karbonat Erol",
+      "postedBy": 2,
+      "favoritedBy": [],
+      "comments": [],
+      "id": 19
+    },
+    {
+      "text": "The greatest glory in living lies not in never falling, but in rising every time we fall",
+      "author": "Google",
+      "postedBy": 2,
+      "favoritedBy": [],
+      "comments": [],
+      "id": 20
+    },
+    {
+      "text": "The way to get started is to quit talking and begin doing",
+      "author": "Google",
+      "postedBy": 2,
+      "favoritedBy": [],
+      "comments": [],
+      "id": 21
+    },
+    {
+      "text": "Your time is limited, so don't waste it living someone else's life",
+      "author": "Google",
+      "postedBy": 2,
+      "favoritedBy": [],
+      "comments": [],
+      "id": 22
+    },
+    {
+      "text": "test",
+      "author": "test",
+      "postedBy": 2,
+      "favoritedBy": [],
+      "comments": [],
+      "id": 23
+    },
+    {
+      "text": "test",
+      "author": "test",
+      "postedBy": 2,
+      "favoritedBy": [],
+      "comments": [],
+      "id": 24
+    },
+    {
+      "text": "test",
+      "author": "test",
+      "postedBy": 2,
+      "favoritedBy": [],
+      "comments": [],
+      "id": 25
+    },
+    {
+      "text": "test",
+      "author": "test",
+      "postedBy": 2,
+      "favoritedBy": [],
+      "comments": [],
+      "id": 26
+    },
+    {
+      "text": "test123",
+      "author": "test",
+      "postedBy": 2,
+      "favoritedBy": [],
+      "comments": [
+        {
+          "text": "Cool",
+          "owner": 1
+        }
+      ],
+      "id": 27
+    },
+    {
+      "text": "New test",
+      "author": "123",
+      "postedBy": 2,
+      "favoritedBy": [],
+      "comments": [],
+      "id": 28
+    },
+    {
+      "text": "Superman",
+      "author": "Marvel",
+      "postedBy": 2,
+      "favoritedBy": [],
+      "comments": [],
+      "id": 29
+    },
+    {
+      "text": "Ich liebe diese Seite",
+      "author": "adam admin",
+      "postedBy": 1,
+      "favoritedBy": [],
+      "comments": [],
+      "id": 30
+    }
+  ],
+  "users": [
+    {
+      "email": "admin@admin.ch",
+      "password": "$2a$10$YkFbz7nkfUtM64tKLMfPme2IOwuBEVCWXcGv75NP6BEdeV94eQ/TG",
+      "id": 1
+    },
+    {
+      "email": "gabkolistiak@gmail.com",
+      "password": "$2a$10$2x7h9v0WCM2pYB2xP.Oz2uyEZM01f1TXPUsfO9edPl9voprzUhJQa",
+      "id": 2
+    },
+    {
+      "email": "gabko144@gmail.com",
+      "password": "$2a$10$JQwLol7aKP27avV9rgOo/um7/Vv.qZREfqVmx/BrOKvRVVqB6SP8a",
+      "id": 3
+    }
+  ]
+}

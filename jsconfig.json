@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./projekt-zitatgram",
+        "paths": {
+            "@components/*": ["components/*"],
+            "@lib/*": ["lib/*"]
+        }
+    }
+}

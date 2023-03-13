@@ -1,0 +1,16 @@
+.profileData {
+    text-align: center;
+}
+
+.collapsibles {
+    text-align: center;
+}
+
+.collapsibles .summary {
+    cursor: pointer;
+
+}
+
+.button {
+    cursor: pointer;
+}

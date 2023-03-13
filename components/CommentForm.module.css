@@ -1,0 +1,23 @@
+.error {
+    color: red;
+    margin-top: 0;
+}
+
+.fieldSetForm {
+    border: none;
+    height: 4em;
+    /*padding-bottom: 1em;*/
+}
+
+.commentButton {
+    background-color: rgba(133, 255, 76, .9);
+    border: black solid 2px;
+    border-radius: 8px;
+    padding: .2em .9em;
+    margin: 1em 1em 0 1em;
+}
+
+.commentForm {
+
+}
+

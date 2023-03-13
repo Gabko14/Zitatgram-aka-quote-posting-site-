@@ -1,0 +1,97 @@
+.commentsButton {
+    list-style: none;
+    font-size: 10pt;
+    font-weight: bold;
+    color: #565656;
+    cursor: pointer;
+    user-select: none;
+    /*box-shadow: #dadada 0 0 0 5px;*/
+    background-color: #dadada;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    /*padding: 0;*/
+    display: block;
+    box-shadow: #dadada 0 0 0 15px;
+
+}
+
+.details {
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
+    cursor: auto;
+    border-radius: 0 0 20px 20px;
+    transition: max-height .2s;
+}
+
+.detailsOpen {
+    margin-top: 1.2em;
+    background-color: #dadada;
+    box-shadow: #dadada 0 -15px 0 15px;
+    border-radius: 0 0 20px 20px;
+    max-height: 100em;
+    opacity: 1;
+    pointer-events: auto !important;
+    transition: max-height .7s ease-out;
+    overflow: hidden;
+
+}
+
+
+
+.visible {
+    /*animation: spawnLate 1s ease-in-out !important;*/
+    max-height: 100em !important;
+    opacity: 1 !important;
+    box-shadow: none !important;
+    pointer-events: auto !important;
+}
+
+.comment {
+    max-height: 0;
+    opacity: 0;
+}
+
+.commentsButton:hover {
+    color: #1e1e1e;
+
+}
+
+.commentsButton:active {
+    color: #363636;
+}
+
+.commentList > li {
+    list-style: none;
+    margin: 1em .5em;
+    font-weight: bold;
+}
+
+
+@keyframes sweep {
+    0% {
+        font-size: 0;
+        max-height: 2em;
+    }
+
+
+    100% {
+        max-height: 28em;
+    }
+}
+@keyframes spawnLate {
+    0% {
+        max-height: 0;
+    }
+
+    99% {
+        max-height: 0;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        max-height: 100em;
+    }
+}
+
